@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "EEC69CA6-F79C-4F5A-9152-7F7517BEEDD9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:submission-capstone-project.xcodeproj",
+        "identifier" : "C0ED63CF2929D501002D8810",
+        "name" : "submission-capstone-projectTests"
+      }
+    }
+  ],
+  "version" : 1
+}
