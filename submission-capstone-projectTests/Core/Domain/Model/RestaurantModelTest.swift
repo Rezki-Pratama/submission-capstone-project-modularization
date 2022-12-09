@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Restaurant
 @testable import submission_capstone_project
 
 class RestaurantModelTest: XCTestCase {

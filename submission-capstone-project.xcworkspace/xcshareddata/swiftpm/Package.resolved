@@ -48,10 +48,10 @@
       },
       {
         "package": "Restaurant",
-        "repositoryURL": "https://github.com/Rezki-Pratama/Restaurant.git",
+        "repositoryURL": "https://github.com/Rezki-Pratama/Restaurant",
         "state": {
           "branch": null,
-          "revision": "c8251d93879d3358ea2c5790a99bf37533516500",
+          "revision": "2f2b7e07b8d9842ce38f4018d04bcfb5b6b59044",
           "version": "0.0.1"
         }
       }

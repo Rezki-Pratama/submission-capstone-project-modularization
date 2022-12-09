@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0279E84294393E6001DD97F /* Restaurant in Frameworks */ = {isa = PBXBuildFile; productRef = C0279E83294393E6001DD97F /* Restaurant */; };
 		C03F3D2D2943558F00635768 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D2C2943558F00635768 /* Core */; };
-		C03F3D2F2943559300635768 /* Restaurant in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D2E2943559300635768 /* Restaurant */; };
 		C03F3D312943559700635768 /* Favourite in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D302943559700635768 /* Favourite */; };
 		C051C1FB292C6B76004AAD4C /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051C1FA292C6B76004AAD4C /* CustomBottomSheet.swift */; };
 		C051C204292C7D8C004AAD4C /* RestaurantModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051C203292C7D8C004AAD4C /* RestaurantModelTest.swift */; };
@@ -25,7 +25,7 @@
 		C060BDC4292A513700C8F79C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDC3292A513700C8F79C /* RemoteImage.swift */; };
 		C0737A4B292BAC5100286AE9 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */; };
 		C0981A5E292B277A0027D36F /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */; };
-		C0CAFC6729437B36001242D6 /* submission-capstone-projectTest.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */; };
+		C0CAFC6729437B36001242D6 /* submission-capstone-project.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C0CAFC6629437B36001242D6 /* submission-capstone-project.xctestplan */; };
 		C0ED63C42929D500002D8810 /* submission_capstone_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */; };
 		C0ED63C62929D500002D8810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C52929D500002D8810 /* ContentView.swift */; };
 		C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ED63C72929D501002D8810 /* Assets.xcassets */; };
@@ -69,7 +69,7 @@
 		C060BDC3292A513700C8F79C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
-		C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "submission-capstone-projectTest.xctestplan"; path = "../../.Trash/submission-capstone-projectTest.xctestplan"; sourceTree = "<group>"; };
+		C0CAFC6629437B36001242D6 /* submission-capstone-project.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "submission-capstone-project.xctestplan"; path = "../../.Trash/submission-capstone-project.xctestplan"; sourceTree = "<group>"; };
 		C0ED63C02929D500002D8810 /* submission-capstone-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "submission-capstone-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectApp.swift; sourceTree = "<group>"; };
 		C0ED63C52929D500002D8810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0279E84294393E6001DD97F /* Restaurant in Frameworks */,
 				C03F3D2D2943558F00635768 /* Core in Frameworks */,
 				C03F3D312943559700635768 /* Favourite in Frameworks */,
-				C03F3D2F2943559300635768 /* Restaurant in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +263,7 @@
 		C0ED63B72929D500002D8810 = {
 			isa = PBXGroup;
 			children = (
-				C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */,
+				C0CAFC6629437B36001242D6 /* submission-capstone-project.xctestplan */,
 				C0ED63C22929D500002D8810 /* submission-capstone-project */,
 				C0ED63D32929D501002D8810 /* submission-capstone-projectTests */,
 				C0ED63DD2929D501002D8810 /* submission-capstone-projectUITests */,
@@ -377,8 +377,8 @@
 			name = "submission-capstone-project";
 			packageProductDependencies = (
 				C03F3D2C2943558F00635768 /* Core */,
-				C03F3D2E2943559300635768 /* Restaurant */,
 				C03F3D302943559700635768 /* Favourite */,
+				C0279E83294393E6001DD97F /* Restaurant */,
 			);
 			productName = "submission-capstone-project";
 			productReference = C0ED63C02929D500002D8810 /* submission-capstone-project.app */;
@@ -455,8 +455,8 @@
 			mainGroup = C0ED63B72929D500002D8810;
 			packageReferences = (
 				C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */,
-				C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */,
 				C03E53E829433D0B0077AF7D /* XCRemoteSwiftPackageReference "Favourite" */,
+				C0279E82294393E6001DD97F /* XCRemoteSwiftPackageReference "Restaurant" */,
 			);
 			productRefGroup = C0ED63C12929D500002D8810 /* Products */;
 			projectDirPath = "";
@@ -475,7 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0ED63CB2929D501002D8810 /* Preview Assets.xcassets in Resources */,
-				C0CAFC6729437B36001242D6 /* submission-capstone-projectTest.xctestplan in Resources */,
+				C0CAFC6729437B36001242D6 /* submission-capstone-project.xctestplan in Resources */,
 				C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -870,17 +870,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		C0279E82294393E6001DD97F /* XCRemoteSwiftPackageReference "Restaurant" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rezki-Pratama/Restaurant";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
 		C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Rezki-Pratama/Core.git";
-			requirement = {
-				kind = exactVersion;
-				version = 0.0.1;
-			};
-		};
-		C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Rezki-Pratama/Restaurant.git";
 			requirement = {
 				kind = exactVersion;
 				version = 0.0.1;
@@ -897,15 +897,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C0279E83294393E6001DD97F /* Restaurant */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0279E82294393E6001DD97F /* XCRemoteSwiftPackageReference "Restaurant" */;
+			productName = Restaurant;
+		};
 		C03F3D2C2943558F00635768 /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */;
 			productName = Core;
-		};
-		C03F3D2E2943559300635768 /* Restaurant */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */;
-			productName = Restaurant;
 		};
 		C03F3D302943559700635768 /* Favourite */ = {
 			isa = XCSwiftPackageProductDependency;
