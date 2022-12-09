@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03F3D2D2943558F00635768 /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D2C2943558F00635768 /* Core */; };
+		C03F3D2F2943559300635768 /* Restaurant in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D2E2943559300635768 /* Restaurant */; };
+		C03F3D312943559700635768 /* Favourite in Frameworks */ = {isa = PBXBuildFile; productRef = C03F3D302943559700635768 /* Favourite */; };
+		C051C1FB292C6B76004AAD4C /* CustomBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051C1FA292C6B76004AAD4C /* CustomBottomSheet.swift */; };
+		C051C204292C7D8C004AAD4C /* RestaurantModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C051C203292C7D8C004AAD4C /* RestaurantModelTest.swift */; };
+		C060BD99292A240000C8F79C /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BD98292A240000C8F79C /* Injection.swift */; };
+		C060BDA3292A313D00C8F79C /* RestaurantRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDA2292A313D00C8F79C /* RestaurantRouter.swift */; };
+		C060BDA5292A316000C8F79C /* RestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDA4292A316000C8F79C /* RestaurantView.swift */; };
+		C060BDAA292A341800C8F79C /* TabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDA9292A341800C8F79C /* TabMenuView.swift */; };
+		C060BDAC292A348500C8F79C /* TabMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDAB292A348500C8F79C /* TabMenuRouter.swift */; };
+		C060BDB2292A37B700C8F79C /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDB1292A37B700C8F79C /* FavouriteView.swift */; };
+		C060BDB8292A384100C8F79C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDB7292A384100C8F79C /* ProfileView.swift */; };
+		C060BDBB292A38F800C8F79C /* TabMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDBA292A38F800C8F79C /* TabMenuPresenter.swift */; };
+		C060BDC0292A500000C8F79C /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDBF292A500000C8F79C /* ProgressIndicator.swift */; };
+		C060BDC2292A50D400C8F79C /* RestaurantRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDC1292A50D400C8F79C /* RestaurantRow.swift */; };
+		C060BDC4292A513700C8F79C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDC3292A513700C8F79C /* RemoteImage.swift */; };
+		C0737A4B292BAC5100286AE9 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */; };
+		C0981A5E292B277A0027D36F /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */; };
+		C0ED63C42929D500002D8810 /* submission_capstone_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */; };
+		C0ED63C62929D500002D8810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C52929D500002D8810 /* ContentView.swift */; };
+		C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ED63C72929D501002D8810 /* Assets.xcassets */; };
+		C0ED63CB2929D501002D8810 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ED63CA2929D501002D8810 /* Preview Assets.xcassets */; };
+		C0ED63D52929D501002D8810 /* submission_capstone_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63D42929D501002D8810 /* submission_capstone_projectTests.swift */; };
+		C0ED63DF2929D501002D8810 /* submission_capstone_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63DE2929D501002D8810 /* submission_capstone_projectUITests.swift */; };
+		C0ED63E12929D501002D8810 /* submission_capstone_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63E02929D501002D8810 /* submission_capstone_projectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0ED63D12929D501002D8810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0ED63B82929D500002D8810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0ED63BF2929D500002D8810;
+			remoteInfo = "submission-capstone-project";
+		};
+		C0ED63DB2929D501002D8810 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0ED63B82929D500002D8810 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0ED63BF2929D500002D8810;
+			remoteInfo = "submission-capstone-project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C03FC1B32929F94C007C62C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C051C1FA292C6B76004AAD4C /* CustomBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottomSheet.swift; sourceTree = "<group>"; };
+		C051C203292C7D8C004AAD4C /* RestaurantModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModelTest.swift; sourceTree = "<group>"; };
+		C060BD98292A240000C8F79C /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		C060BDA2292A313D00C8F79C /* RestaurantRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRouter.swift; sourceTree = "<group>"; };
+		C060BDA4292A316000C8F79C /* RestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantView.swift; sourceTree = "<group>"; };
+		C060BDA9292A341800C8F79C /* TabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuView.swift; sourceTree = "<group>"; };
+		C060BDAB292A348500C8F79C /* TabMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuRouter.swift; sourceTree = "<group>"; };
+		C060BDB1292A37B700C8F79C /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		C060BDB7292A384100C8F79C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C060BDBA292A38F800C8F79C /* TabMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMenuPresenter.swift; sourceTree = "<group>"; };
+		C060BDBF292A500000C8F79C /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		C060BDC1292A50D400C8F79C /* RestaurantRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRow.swift; sourceTree = "<group>"; };
+		C060BDC3292A513700C8F79C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		C0ED63C02929D500002D8810 /* submission-capstone-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "submission-capstone-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectApp.swift; sourceTree = "<group>"; };
+		C0ED63C52929D500002D8810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0ED63C72929D501002D8810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0ED63CA2929D501002D8810 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0ED63D02929D501002D8810 /* submission-capstone-projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "submission-capstone-projectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ED63D42929D501002D8810 /* submission_capstone_projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectTests.swift; sourceTree = "<group>"; };
+		C0ED63DA2929D501002D8810 /* submission-capstone-projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "submission-capstone-projectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0ED63DE2929D501002D8810 /* submission_capstone_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectUITests.swift; sourceTree = "<group>"; };
+		C0ED63E02929D501002D8810 /* submission_capstone_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0ED63BD2929D500002D8810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03F3D2D2943558F00635768 /* Core in Frameworks */,
+				C03F3D312943559700635768 /* Favourite in Frameworks */,
+				C03F3D2F2943559300635768 /* Restaurant in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63CD2929D501002D8810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63D72929D501002D8810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03F3D2B2943558F00635768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C03FC1AC2929ECAD007C62C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDBF292A500000C8F79C /* ProgressIndicator.swift */,
+				C060BDC3292A513700C8F79C /* RemoteImage.swift */,
+				C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */,
+				C051C1FA292C6B76004AAD4C /* CustomBottomSheet.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C051C1FE292C7AA3004AAD4C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C051C200292C7D3D004AAD4C /* Domain */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C051C200292C7D3D004AAD4C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				C051C201292C7D4F004AAD4C /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		C051C201292C7D4F004AAD4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C051C203292C7D8C004AAD4C /* RestaurantModelTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C060BD9C292A2E9C00C8F79C /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				C060BD9E292A2EB600C8F79C /* View */,
+				C060BD9D292A2EAD00C8F79C /* Router */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		C060BD9D292A2EAD00C8F79C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDA2292A313D00C8F79C /* RestaurantRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C060BD9E292A2EB600C8F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDA4292A316000C8F79C /* RestaurantView.swift */,
+				C060BDC1292A50D400C8F79C /* RestaurantRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C060BDA6292A33EA00C8F79C /* TabMenu */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDB9292A38E900C8F79C /* Presenter */,
+				C060BDA8292A33FE00C8F79C /* View */,
+				C060BDA7292A33F700C8F79C /* Router */,
+			);
+			path = TabMenu;
+			sourceTree = "<group>";
+		};
+		C060BDA7292A33F700C8F79C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDAB292A348500C8F79C /* TabMenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C060BDA8292A33FE00C8F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDA9292A341800C8F79C /* TabMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C060BDAD292A377600C8F79C /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDAF292A379C00C8F79C /* View */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		C060BDAF292A379C00C8F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDB1292A37B700C8F79C /* FavouriteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C060BDB3292A381300C8F79C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDB5292A382B00C8F79C /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C060BDB5292A382B00C8F79C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDB7292A384100C8F79C /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C060BDB9292A38E900C8F79C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDBA292A38F800C8F79C /* TabMenuPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C0981A57292B26BF0027D36F /* RestaurantDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C0981A59292B27230027D36F /* View */,
+			);
+			path = RestaurantDetail;
+			sourceTree = "<group>";
+		};
+		C0981A59292B27230027D36F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0ED63B72929D500002D8810 = {
+			isa = PBXGroup;
+			children = (
+				C0ED63C22929D500002D8810 /* submission-capstone-project */,
+				C0ED63D32929D501002D8810 /* submission-capstone-projectTests */,
+				C0ED63DD2929D501002D8810 /* submission-capstone-projectUITests */,
+				C0ED63C12929D500002D8810 /* Products */,
+				C03F3D2B2943558F00635768 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0ED63C12929D500002D8810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0ED63C02929D500002D8810 /* submission-capstone-project.app */,
+				C0ED63D02929D501002D8810 /* submission-capstone-projectTests.xctest */,
+				C0ED63DA2929D501002D8810 /* submission-capstone-projectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0ED63C22929D500002D8810 /* submission-capstone-project */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC1B32929F94C007C62C9 /* Info.plist */,
+				C0ED63EF2929D60C002D8810 /* Core */,
+				C0ED63EE2929D5D2002D8810 /* Module */,
+				C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */,
+				C0ED63C52929D500002D8810 /* ContentView.swift */,
+				C0ED63C72929D501002D8810 /* Assets.xcassets */,
+				C0ED63C92929D501002D8810 /* Preview Content */,
+			);
+			path = "submission-capstone-project";
+			sourceTree = "<group>";
+		};
+		C0ED63C92929D501002D8810 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0ED63CA2929D501002D8810 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0ED63D32929D501002D8810 /* submission-capstone-projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				C051C1FE292C7AA3004AAD4C /* Core */,
+				C0ED63D42929D501002D8810 /* submission_capstone_projectTests.swift */,
+			);
+			path = "submission-capstone-projectTests";
+			sourceTree = "<group>";
+		};
+		C0ED63DD2929D501002D8810 /* submission-capstone-projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0ED63DE2929D501002D8810 /* submission_capstone_projectUITests.swift */,
+				C0ED63E02929D501002D8810 /* submission_capstone_projectUITestsLaunchTests.swift */,
+			);
+			path = "submission-capstone-projectUITests";
+			sourceTree = "<group>";
+		};
+		C0ED63EE2929D5D2002D8810 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C060BDA6292A33EA00C8F79C /* TabMenu */,
+				C060BD9C292A2E9C00C8F79C /* Restaurant */,
+				C0981A57292B26BF0027D36F /* RestaurantDetail */,
+				C060BDAD292A377600C8F79C /* Favourite */,
+				C060BDB3292A381300C8F79C /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		C0ED63EF2929D60C002D8810 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C0ED63F22929D63F002D8810 /* Di */,
+				C0ED63F02929D62F002D8810 /* Utils */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C0ED63F02929D62F002D8810 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C03FC1AC2929ECAD007C62C9 /* View */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C0ED63F22929D63F002D8810 /* Di */ = {
+			isa = PBXGroup;
+			children = (
+				C060BD98292A240000C8F79C /* Injection.swift */,
+			);
+			path = Di;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0ED63BF2929D500002D8810 /* submission-capstone-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ED63E42929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-project" */;
+			buildPhases = (
+				C0ED63BC2929D500002D8810 /* Sources */,
+				C0ED63BD2929D500002D8810 /* Frameworks */,
+				C0ED63BE2929D500002D8810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "submission-capstone-project";
+			packageProductDependencies = (
+				C03F3D2C2943558F00635768 /* Core */,
+				C03F3D2E2943559300635768 /* Restaurant */,
+				C03F3D302943559700635768 /* Favourite */,
+			);
+			productName = "submission-capstone-project";
+			productReference = C0ED63C02929D500002D8810 /* submission-capstone-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0ED63CF2929D501002D8810 /* submission-capstone-projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ED63E72929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-projectTests" */;
+			buildPhases = (
+				C0ED63CC2929D501002D8810 /* Sources */,
+				C0ED63CD2929D501002D8810 /* Frameworks */,
+				C0ED63CE2929D501002D8810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0ED63D22929D501002D8810 /* PBXTargetDependency */,
+			);
+			name = "submission-capstone-projectTests";
+			productName = "submission-capstone-projectTests";
+			productReference = C0ED63D02929D501002D8810 /* submission-capstone-projectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0ED63D92929D501002D8810 /* submission-capstone-projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0ED63EA2929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-projectUITests" */;
+			buildPhases = (
+				C0ED63D62929D501002D8810 /* Sources */,
+				C0ED63D72929D501002D8810 /* Frameworks */,
+				C0ED63D82929D501002D8810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0ED63DC2929D501002D8810 /* PBXTargetDependency */,
+			);
+			name = "submission-capstone-projectUITests";
+			productName = "submission-capstone-projectUITests";
+			productReference = C0ED63DA2929D501002D8810 /* submission-capstone-projectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0ED63B82929D500002D8810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					C0ED63BF2929D500002D8810 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					C0ED63CF2929D501002D8810 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C0ED63BF2929D500002D8810;
+					};
+					C0ED63D92929D501002D8810 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = C0ED63BF2929D500002D8810;
+					};
+				};
+			};
+			buildConfigurationList = C0ED63BB2929D500002D8810 /* Build configuration list for PBXProject "submission-capstone-project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				id,
+			);
+			mainGroup = C0ED63B72929D500002D8810;
+			packageReferences = (
+				C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */,
+				C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */,
+				C03E53E829433D0B0077AF7D /* XCRemoteSwiftPackageReference "Favourite" */,
+			);
+			productRefGroup = C0ED63C12929D500002D8810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0ED63BF2929D500002D8810 /* submission-capstone-project */,
+				C0ED63CF2929D501002D8810 /* submission-capstone-projectTests */,
+				C0ED63D92929D501002D8810 /* submission-capstone-projectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0ED63BE2929D500002D8810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ED63CB2929D501002D8810 /* Preview Assets.xcassets in Resources */,
+				C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63CE2929D501002D8810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63D82929D501002D8810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0ED63BC2929D500002D8810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060BDAA292A341800C8F79C /* TabMenuView.swift in Sources */,
+				C060BDAC292A348500C8F79C /* TabMenuRouter.swift in Sources */,
+				C060BDA5292A316000C8F79C /* RestaurantView.swift in Sources */,
+				C060BDC4292A513700C8F79C /* RemoteImage.swift in Sources */,
+				C0ED63C62929D500002D8810 /* ContentView.swift in Sources */,
+				C060BD99292A240000C8F79C /* Injection.swift in Sources */,
+				C0ED63C42929D500002D8810 /* submission_capstone_projectApp.swift in Sources */,
+				C051C1FB292C6B76004AAD4C /* CustomBottomSheet.swift in Sources */,
+				C060BDC0292A500000C8F79C /* ProgressIndicator.swift in Sources */,
+				C060BDBB292A38F800C8F79C /* TabMenuPresenter.swift in Sources */,
+				C060BDA3292A313D00C8F79C /* RestaurantRouter.swift in Sources */,
+				C0737A4B292BAC5100286AE9 /* CustomButtonStyle.swift in Sources */,
+				C060BDB2292A37B700C8F79C /* FavouriteView.swift in Sources */,
+				C0981A5E292B277A0027D36F /* RestaurantDetailView.swift in Sources */,
+				C060BDC2292A50D400C8F79C /* RestaurantRow.swift in Sources */,
+				C060BDB8292A384100C8F79C /* ProfileView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63CC2929D501002D8810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C051C204292C7D8C004AAD4C /* RestaurantModelTest.swift in Sources */,
+				C0ED63D52929D501002D8810 /* submission_capstone_projectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0ED63D62929D501002D8810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0ED63DF2929D501002D8810 /* submission_capstone_projectUITests.swift in Sources */,
+				C0ED63E12929D501002D8810 /* submission_capstone_projectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0ED63D22929D501002D8810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0ED63BF2929D500002D8810 /* submission-capstone-project */;
+			targetProxy = C0ED63D12929D501002D8810 /* PBXContainerItemProxy */;
+		};
+		C0ED63DC2929D501002D8810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0ED63BF2929D500002D8810 /* submission-capstone-project */;
+			targetProxy = C0ED63DB2929D501002D8810 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C0ED63E22929D501002D8810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0ED63E32929D501002D8810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0ED63E52929D501002D8810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"submission-capstone-project/Preview Content\"";
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "submission-capstone-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0ED63E62929D501002D8810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"submission-capstone-project/Preview Content\"";
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "submission-capstone-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0ED63E82929D501002D8810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/submission-capstone-project.app/submission-capstone-project";
+			};
+			name = Debug;
+		};
+		C0ED63E92929D501002D8810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-projectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/submission-capstone-project.app/submission-capstone-project";
+			};
+			name = Release;
+		};
+		C0ED63EB2929D501002D8810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "submission-capstone-project";
+			};
+			name = Debug;
+		};
+		C0ED63EC2929D501002D8810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LK3WFR8YNT;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rezki-pratama.submission-capstone-projectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "submission-capstone-project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0ED63BB2929D500002D8810 /* Build configuration list for PBXProject "submission-capstone-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ED63E22929D501002D8810 /* Debug */,
+				C0ED63E32929D501002D8810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ED63E42929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ED63E52929D501002D8810 /* Debug */,
+				C0ED63E62929D501002D8810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ED63E72929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ED63E82929D501002D8810 /* Debug */,
+				C0ED63E92929D501002D8810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0ED63EA2929D501002D8810 /* Build configuration list for PBXNativeTarget "submission-capstone-projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0ED63EB2929D501002D8810 /* Debug */,
+				C0ED63EC2929D501002D8810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rezki-Pratama/Core.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rezki-Pratama/Restaurant.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		C03E53E829433D0B0077AF7D /* XCRemoteSwiftPackageReference "Favourite" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rezki-Pratama/Favourite.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C03F3D2C2943558F00635768 /* Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C03E53E229433ABE0077AF7D /* XCRemoteSwiftPackageReference "Core" */;
+			productName = Core;
+		};
+		C03F3D2E2943559300635768 /* Restaurant */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C03E53E529433AD50077AF7D /* XCRemoteSwiftPackageReference "Restaurant" */;
+			productName = Restaurant;
+		};
+		C03F3D302943559700635768 /* Favourite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C03E53E829433D0B0077AF7D /* XCRemoteSwiftPackageReference "Favourite" */;
+			productName = Favourite;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C0ED63B82929D500002D8810 /* Project object */;
+}
