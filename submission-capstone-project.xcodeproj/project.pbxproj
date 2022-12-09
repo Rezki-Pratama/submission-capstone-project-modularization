@@ -25,6 +25,7 @@
 		C060BDC4292A513700C8F79C /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060BDC3292A513700C8F79C /* RemoteImage.swift */; };
 		C0737A4B292BAC5100286AE9 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */; };
 		C0981A5E292B277A0027D36F /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */; };
+		C0CAFC6729437B36001242D6 /* submission-capstone-projectTest.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */; };
 		C0ED63C42929D500002D8810 /* submission_capstone_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */; };
 		C0ED63C62929D500002D8810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ED63C52929D500002D8810 /* ContentView.swift */; };
 		C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0ED63C72929D501002D8810 /* Assets.xcassets */; };
@@ -68,6 +69,7 @@
 		C060BDC3292A513700C8F79C /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		C0737A4A292BAC5100286AE9 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
 		C0981A5D292B277A0027D36F /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "submission-capstone-projectTest.xctestplan"; path = "../../.Trash/submission-capstone-projectTest.xctestplan"; sourceTree = "<group>"; };
 		C0ED63C02929D500002D8810 /* submission-capstone-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "submission-capstone-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0ED63C32929D500002D8810 /* submission_capstone_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submission_capstone_projectApp.swift; sourceTree = "<group>"; };
 		C0ED63C52929D500002D8810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 		C0ED63B72929D500002D8810 = {
 			isa = PBXGroup;
 			children = (
+				C0CAFC6629437B36001242D6 /* submission-capstone-projectTest.xctestplan */,
 				C0ED63C22929D500002D8810 /* submission-capstone-project */,
 				C0ED63D32929D501002D8810 /* submission-capstone-projectTests */,
 				C0ED63DD2929D501002D8810 /* submission-capstone-projectUITests */,
@@ -472,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0ED63CB2929D501002D8810 /* Preview Assets.xcassets in Resources */,
+				C0CAFC6729437B36001242D6 /* submission-capstone-projectTest.xctestplan in Resources */,
 				C0ED63C82929D501002D8810 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
