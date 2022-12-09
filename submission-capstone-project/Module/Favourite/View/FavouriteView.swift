@@ -9,6 +9,7 @@ import SwiftUI
 import Favourite
 import Restaurant
 import Core
+import Common
 
 struct FavouriteView: View {
   @ObservedObject var presenter: FavouritesPresenter<
@@ -33,7 +34,7 @@ struct FavouriteView: View {
       } else if presenter.resourceState == .success {
         List(presenter.list) { favourite in
           self.presenter.linkBuilder(
-               title: "Detail Restaurant",
+               title: "detail_restaurant".localized(identifier: "rezki-pratama.submission-capstone-project"),
                destination: {
                  RestaurantRouter.makeDetailView(for: favourite)
                },content: {

@@ -19,13 +19,13 @@ struct ProfileView: View {
             .clipShape(Circle())
         VStack(alignment: .leading, spacing: 0) {
             Spacer().frame(height: 20)
-            Text("Nama")
+            Text("name".localized(identifier: "rezki-pratama.submission-capstone-project"))
             Text("Rezki Pratama").fontWeight(.bold)
             Spacer().frame(height: 20)
-            Text("Email")
+            Text("email".localized(identifier: "rezki-pratama.submission-capstone-project"))
             Text("rezki.pratama7777@gmail.com").fontWeight(.bold)
             Spacer().frame(height: 20)
-            Text("Github")
+            Text("github".localized(identifier: "rezki-pratama.submission-capstone-project"))
             Text("https://github.com/Rezki-Pratama").fontWeight(.bold)
         }
     }.fixedSize(horizontal: true, vertical: false)

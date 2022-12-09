@@ -6,23 +6,24 @@
 //
 
 import SwiftUI
+import Common
 
 
 struct TabMenuView: View {
     var presenter: TabMenuPresenter
     var body: some View {
         TabView {
-          self.presenter.linkRestaurantBuilder(title: "Restaurant", content: {
+          self.presenter.linkRestaurantBuilder(title: "restaurant".localized(identifier: "rezki-pratama.submission-capstone-project"), content: {
             Image(systemName: "house")
-            Text("Restaurant")
+            Text("restaurant".localized(identifier: "rezki-pratama.submission-capstone-project"))
           })
-          self.presenter.linkFavouriteBuilder(title: "Favourites", content: {
+          self.presenter.linkFavouriteBuilder(title: "favourites".localized(identifier: "rezki-pratama.submission-capstone-project"), content: {
             Image(systemName: "heart.fill")
-            Text("Favourites")
+            Text("favourites".localized(identifier: "rezki-pratama.submission-capstone-project"))
           })
-          self.presenter.linkProfileBuilder(title: "Profile", content: {
+          self.presenter.linkProfileBuilder(title: "profile".localized(identifier: "rezki-pratama.submission-capstone-project"), content: {
             Image(systemName: "person.circle")
-            Text("Profile")
+            Text("profile".localized(identifier: "rezki-pratama.submission-capstone-project"))
           })
         }.onAppear {
           let tabBarAppearance = UITabBarAppearance()

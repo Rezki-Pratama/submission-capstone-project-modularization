@@ -9,6 +9,7 @@ import SwiftUI
 import Restaurant
 import Favourite
 import Core
+import Common
 
 struct RestaurantDetailView: View {
   
@@ -35,7 +36,7 @@ struct RestaurantDetailView: View {
               Text(presenter.errorMessage)
           } else if presenter.resourceState == .empty {
               Spacer()
-              Text("Data Tidak Ada")
+              Text("no_data".localized(identifier: "rezki-pratama.submission-capstone-project"))
           } else if presenter.resourceState == .success {
               List {
                 Spacer().frame(height: 20)
@@ -65,14 +66,14 @@ struct RestaurantDetailView: View {
                         Spacer().frame(height: 20)
                       }
                       HStack {
-                        Text("Reviews")
+                        Text("review".localized(identifier: "rezki-pratama.submission-capstone-project"))
                           .font(.system(size: 20))
                           .fontWeight(.bold)
                         Spacer()
                         Button {
                           presenter.showBottomSheet.toggle()
                         } label: {
-                          Text("Tulis Review")
+                          Text("add_review".localized(identifier: "rezki-pratama.submission-capstone-project"))
                         }
                         .buttonStyle(.borderless)
                         .sheet(isPresented: $presenter.showBottomSheet) {

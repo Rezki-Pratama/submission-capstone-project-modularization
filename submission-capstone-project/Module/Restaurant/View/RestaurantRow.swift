@@ -6,8 +6,7 @@
 //
 
 import SwiftUI
-
-import SwiftUI
+import Common
 
 struct RestaurantRow: View {
     var imageUrl: String

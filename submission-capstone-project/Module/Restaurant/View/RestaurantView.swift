@@ -8,6 +8,7 @@
 import SwiftUI
 import Core
 import Restaurant
+import Common
 
 struct RestaurantView: View {
   @ObservedObject var presenter: GetListPresenter<Any, RestaurantDomainModel, Interactor<Any, [RestaurantDomainModel], GetRestaurantsRepository<GetRestaurantLocalDataSource, GetRestaurantsRemoteDataSource, RestaurantsTransformer>>>
@@ -19,11 +20,11 @@ struct RestaurantView: View {
           Image(systemName: "magnifyingglass")
               .resizable()
               .frame(width: 30, height: 30, alignment: .center)
-          TextField("Search", text: $presenter.search)
+          TextField("search".localized(identifier: "rezki-pratama.submission-capstone-project"), text: $presenter.search)
           Button(action: {
               self.alert = true
           }){
-              Text("Filter")
+              Text("filter".localized(identifier: "rezki-pratama.submission-capstone-project"))
           }
       }
       .padding(.horizontal)
@@ -36,7 +37,7 @@ struct RestaurantView: View {
       } else if presenter.resourceState == .success {
         List(presenter.list) { restaurant in
           self.presenter.linkBuilder(
-               title: "Detail Restaurant",
+               title: "detail_restaurant".localized(identifier: "rezki-pratama.submission-capstone-project"),
                destination: {
                  RestaurantRouter.makeDetailView(for: restaurant)
                },content: {

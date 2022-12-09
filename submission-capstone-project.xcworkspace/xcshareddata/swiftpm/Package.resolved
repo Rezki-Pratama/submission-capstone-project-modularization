@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "Common",
+        "repositoryURL": "https://github.com/Rezki-Pratama/Common.git",
+        "state": {
+          "branch": null,
+          "revision": "e584286959c60036cf648ff098777d0ec93fefdd",
+          "version": "0.0.1"
+        }
+      },
+      {
         "package": "Core",
         "repositoryURL": "https://github.com/Rezki-Pratama/Core.git",
         "state": {

@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  submission-capstone-project
+
+  Created by Rezki Pratama on 09/12/22.
+  
+*/
+
+"restaurant" = "Restoran";
+"favourites" = "Favorit";
+"profile" = "Profil";
+"detail_restaurant" = "Detail Restoran";
+"name" = "Nama";
+"email" = "Email";
+"github" = "Github";
+"search" = "Cari";
+"filter" = "Filter";
+"review" = "Ulasan";
+"add_review" = "Tambah Ulasan";
+"save" = "Simpan";
+"no_data" = "Data Tidak Ada";
+"alert" = "Peringatan";
+"close" = "Tutup";
